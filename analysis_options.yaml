@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    directives_ordering: true
+    always_use_package_imports: false
+    prefer_relative_imports: true
