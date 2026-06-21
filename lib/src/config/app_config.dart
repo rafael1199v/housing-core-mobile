@@ -22,6 +22,10 @@ class AppConfig {
     'MAPS_CLOUD_MAP_ID',
   );
 
+  static const String passwordPublicKey = String.fromEnvironment(
+    'PASSWORD_PUBLIC_KEY',
+  );
+
   static String? get googleWebClientIdOrNull =>
       googleWebClientId.isEmpty ? null : googleWebClientId;
 
@@ -33,4 +37,7 @@ class AppConfig {
 
   static String? get mapsCloudMapIdOrNull =>
     mapsCloudMapId.isEmpty ? null : mapsCloudMapId;
+
+  static String? get passwordPublicKeyOrNull =>
+      passwordPublicKey.isEmpty ? null : passwordPublicKey;
 }
