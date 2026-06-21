@@ -11,6 +11,8 @@ export 'src/role/role_api.dart';
 export 'src/role/role_errors.dart';
 export 'src/role/role_hierarchy.dart';
 export 'src/role/role_service.dart';
+export 'src/role/role_switch_controller.dart';
 export 'src/session/current_user.dart';
+export 'src/session/session_notifier.dart';
 export 'src/storage/secure_token_storage.dart';
 export 'src/storage/token_storage.dart';
