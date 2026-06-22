@@ -5,6 +5,11 @@ class AppConfig {
     'BASE_URL',
     defaultValue: 'http://localhost:5065',
   );
+  
+  static const String webBaseUrl = String.fromEnvironment(
+    'WEB_BASE_URL',
+    defaultValue: 'http://localhost:5173',
+  );
 
   static const String googleWebClientId = String.fromEnvironment(
     'GOOGLE_WEB_CLIENT_ID',
